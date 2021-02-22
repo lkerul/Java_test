@@ -1,1 +1,5 @@
-print("Hello World")
+stage('build') {
+    steps {
+        sh 'python print("Hello world")'
+    }
+}
